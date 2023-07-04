@@ -17,11 +17,9 @@ namespace maxMin
                 numbers.Add(number);
             }
             {
-                int result = numbers.Max();
-                Console.WriteLine("The max number is " + numbers.Max());
+                Console.WriteLine("The max number is {0} \n", numbers.Max());
 
-                int answer = numbers.Min();
-                Console.WriteLine("The min number is " + numbers.Min());
+                Console.WriteLine("The min number is {0} \n", numbers.Min());
             }
 
         }
